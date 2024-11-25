@@ -1,0 +1,40 @@
+.fort{
+    width: 300px;
+    height: 300px;
+    background-color:lightpink;
+    border: 2px solid;
+}
+#fort1{
+    object-fit: fill;
+}
+#fort2{
+    object-fit: contain;
+}
+#fort3{
+    object-fit: cover;
+    object-position: -68px 0px;
+}
+#fort4{
+    object-fit: none;
+    object-position: -360px -50px;
+}
+#fort5{
+    object-fit: scale-down;
+}
+
+.ps2Poster{
+    width: 400px;
+    height: 400px;
+    object-fit: none;
+}
+
+#aishwarya{
+    object-position:200px 100px;
+    background-color: aquamarine;
+
+}
+
+#vikram{
+    object-position:-200px 100px ;
+    background-color: aquamarine;
+}
